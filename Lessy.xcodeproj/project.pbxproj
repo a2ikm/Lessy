@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E5D0082E141A327500C093FA /* MyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = E5D0082D141A327500C093FA /* MyWindow.m */; };
 		E5F3AC01141A076D007C8B4F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5F3AC00141A076D007C8B4F /* Cocoa.framework */; };
 		E5F3AC0B141A076D007C8B4F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E5F3AC09141A076D007C8B4F /* InfoPlist.strings */; };
 		E5F3AC0E141A076D007C8B4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5F3AC0D141A076D007C8B4F /* main.m */; };
@@ -33,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E5D0082C141A327500C093FA /* MyWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWindow.h; sourceTree = "<group>"; };
+		E5D0082D141A327500C093FA /* MyWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWindow.m; sourceTree = "<group>"; };
 		E5F3ABFC141A076D007C8B4F /* Lessy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lessy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5F3AC00141A076D007C8B4F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		E5F3AC03141A076D007C8B4F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -123,6 +126,8 @@
 			children = (
 				E5F3AC12141A076D007C8B4F /* MyDocument.h */,
 				E5F3AC13141A076D007C8B4F /* MyDocument.m */,
+				E5D0082C141A327500C093FA /* MyWindow.h */,
+				E5D0082D141A327500C093FA /* MyWindow.m */,
 				E5F3AC39141A2349007C8B4F /* AppDelegate.h */,
 				E5F3AC3A141A2349007C8B4F /* AppDelegate.m */,
 				E5F3AC15141A076D007C8B4F /* MyDocument.xib */,
@@ -273,6 +278,7 @@
 				E5F3AC0E141A076D007C8B4F /* main.m in Sources */,
 				E5F3AC14141A076D007C8B4F /* MyDocument.m in Sources */,
 				E5F3AC3B141A2349007C8B4F /* AppDelegate.m in Sources */,
+				E5D0082E141A327500C093FA /* MyWindow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,6 +469,7 @@
 				E5F3AC33141A076D007C8B4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E5F3AC34141A076D007C8B4F /* Build configuration list for PBXNativeTarget "LessyTests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +478,7 @@
 				E5F3AC36141A076D007C8B4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
