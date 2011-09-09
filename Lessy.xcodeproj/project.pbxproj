@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E5F3AC01141A076D007C8B4F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5F3AC00141A076D007C8B4F /* Cocoa.framework */; };
+		E5F3AC0B141A076D007C8B4F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E5F3AC09141A076D007C8B4F /* InfoPlist.strings */; };
+		E5F3AC0E141A076D007C8B4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5F3AC0D141A076D007C8B4F /* main.m */; };
+		E5F3AC11141A076D007C8B4F /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = E5F3AC0F141A076D007C8B4F /* Credits.rtf */; };
+		E5F3AC14141A076D007C8B4F /* MyDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = E5F3AC13141A076D007C8B4F /* MyDocument.m */; };
+		E5F3AC17141A076D007C8B4F /* MyDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5F3AC15141A076D007C8B4F /* MyDocument.xib */; };
+		E5F3AC1A141A076D007C8B4F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5F3AC18141A076D007C8B4F /* MainMenu.xib */; };
+		E5F3AC21141A076D007C8B4F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5F3AC00141A076D007C8B4F /* Cocoa.framework */; };
+		E5F3AC29141A076D007C8B4F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E5F3AC27141A076D007C8B4F /* InfoPlist.strings */; };
+		E5F3AC2C141A076D007C8B4F /* LessyTests.h in Resources */ = {isa = PBXBuildFile; fileRef = E5F3AC2B141A076D007C8B4F /* LessyTests.h */; };
+		E5F3AC2E141A076D007C8B4F /* LessyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E5F3AC2D141A076D007C8B4F /* LessyTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E5F3AC22141A076D007C8B4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E5F3ABF3141A076D007C8B4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5F3ABFB141A076D007C8B4F;
+			remoteInfo = Lessy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E5F3ABFC141A076D007C8B4F /* Lessy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lessy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5F3AC00141A076D007C8B4F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		E5F3AC03141A076D007C8B4F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		E5F3AC04141A076D007C8B4F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E5F3AC05141A076D007C8B4F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E5F3AC08141A076D007C8B4F /* Lessy-Info.plist */ = {isa = PBXFileReference; path = "Lessy-Info.plist"; sourceTree = "<group>"; };
+		E5F3AC0A141A076D007C8B4F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E5F3AC0C141A076D007C8B4F /* Lessy-Prefix.pch */ = {isa = PBXFileReference; path = "Lessy-Prefix.pch"; sourceTree = "<group>"; };
+		E5F3AC0D141A076D007C8B4F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E5F3AC10141A076D007C8B4F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		E5F3AC12141A076D007C8B4F /* MyDocument.h */ = {isa = PBXFileReference; path = MyDocument.h; sourceTree = "<group>"; };
+		E5F3AC13141A076D007C8B4F /* MyDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyDocument.m; sourceTree = "<group>"; };
+		E5F3AC16141A076D007C8B4F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MyDocument.xib; sourceTree = "<group>"; };
+		E5F3AC19141A076D007C8B4F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E5F3AC20141A076D007C8B4F /* LessyTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LessyTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5F3AC26141A076D007C8B4F /* LessyTests-Info.plist */ = {isa = PBXFileReference; path = "LessyTests-Info.plist"; sourceTree = "<group>"; };
+		E5F3AC28141A076D007C8B4F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E5F3AC2A141A076D007C8B4F /* LessyTests-Prefix.pch */ = {isa = PBXFileReference; path = "LessyTests-Prefix.pch"; sourceTree = "<group>"; };
+		E5F3AC2B141A076D007C8B4F /* LessyTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LessyTests.h; sourceTree = "<group>"; };
+		E5F3AC2D141A076D007C8B4F /* LessyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LessyTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E5F3ABF9141A076D007C8B4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5F3AC01141A076D007C8B4F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5F3AC1C141A076D007C8B4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5F3AC21141A076D007C8B4F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E5F3ABF1141A076D007C8B4F = {
+			isa = PBXGroup;
+			children = (
+				E5F3AC06141A076D007C8B4F /* Lessy */,
+				E5F3AC24141A076D007C8B4F /* LessyTests */,
+				E5F3ABFF141A076D007C8B4F /* Frameworks */,
+				E5F3ABFD141A076D007C8B4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E5F3ABFD141A076D007C8B4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5F3ABFC141A076D007C8B4F /* Lessy.app */,
+				E5F3AC20141A076D007C8B4F /* LessyTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5F3ABFF141A076D007C8B4F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5F3AC00141A076D007C8B4F /* Cocoa.framework */,
+				E5F3AC02141A076D007C8B4F /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E5F3AC02141A076D007C8B4F /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5F3AC03141A076D007C8B4F /* AppKit.framework */,
+				E5F3AC04141A076D007C8B4F /* CoreData.framework */,
+				E5F3AC05141A076D007C8B4F /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		E5F3AC06141A076D007C8B4F /* Lessy */ = {
+			isa = PBXGroup;
+			children = (
+				E5F3AC12141A076D007C8B4F /* MyDocument.h */,
+				E5F3AC13141A076D007C8B4F /* MyDocument.m */,
+				E5F3AC15141A076D007C8B4F /* MyDocument.xib */,
+				E5F3AC18141A076D007C8B4F /* MainMenu.xib */,
+				E5F3AC07141A076D007C8B4F /* Supporting Files */,
+			);
+			path = Lessy;
+			sourceTree = "<group>";
+		};
+		E5F3AC07141A076D007C8B4F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5F3AC08141A076D007C8B4F /* Lessy-Info.plist */,
+				E5F3AC09141A076D007C8B4F /* InfoPlist.strings */,
+				E5F3AC0C141A076D007C8B4F /* Lessy-Prefix.pch */,
+				E5F3AC0D141A076D007C8B4F /* main.m */,
+				E5F3AC0F141A076D007C8B4F /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E5F3AC24141A076D007C8B4F /* LessyTests */ = {
+			isa = PBXGroup;
+			children = (
+				E5F3AC2B141A076D007C8B4F /* LessyTests.h */,
+				E5F3AC2D141A076D007C8B4F /* LessyTests.m */,
+				E5F3AC25141A076D007C8B4F /* Supporting Files */,
+			);
+			path = LessyTests;
+			sourceTree = "<group>";
+		};
+		E5F3AC25141A076D007C8B4F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5F3AC26141A076D007C8B4F /* LessyTests-Info.plist */,
+				E5F3AC27141A076D007C8B4F /* InfoPlist.strings */,
+				E5F3AC2A141A076D007C8B4F /* LessyTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E5F3ABFB141A076D007C8B4F /* Lessy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5F3AC31141A076D007C8B4F /* Build configuration list for PBXNativeTarget "Lessy" */;
+			buildPhases = (
+				E5F3ABF8141A076D007C8B4F /* Sources */,
+				E5F3ABF9141A076D007C8B4F /* Frameworks */,
+				E5F3ABFA141A076D007C8B4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lessy;
+			productName = Lessy;
+			productReference = E5F3ABFC141A076D007C8B4F /* Lessy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E5F3AC1F141A076D007C8B4F /* LessyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5F3AC34141A076D007C8B4F /* Build configuration list for PBXNativeTarget "LessyTests" */;
+			buildPhases = (
+				E5F3AC1B141A076D007C8B4F /* Sources */,
+				E5F3AC1C141A076D007C8B4F /* Frameworks */,
+				E5F3AC1D141A076D007C8B4F /* Resources */,
+				E5F3AC1E141A076D007C8B4F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5F3AC23141A076D007C8B4F /* PBXTargetDependency */,
+			);
+			name = LessyTests;
+			productName = LessyTests;
+			productReference = E5F3AC20141A076D007C8B4F /* LessyTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E5F3ABF3141A076D007C8B4F /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = E5F3ABF6141A076D007C8B4F /* Build configuration list for PBXProject "Lessy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E5F3ABF1141A076D007C8B4F;
+			productRefGroup = E5F3ABFD141A076D007C8B4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5F3ABFB141A076D007C8B4F /* Lessy */,
+				E5F3AC1F141A076D007C8B4F /* LessyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E5F3ABFA141A076D007C8B4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5F3AC0B141A076D007C8B4F /* InfoPlist.strings in Resources */,
+				E5F3AC11141A076D007C8B4F /* Credits.rtf in Resources */,
+				E5F3AC17141A076D007C8B4F /* MyDocument.xib in Resources */,
+				E5F3AC1A141A076D007C8B4F /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5F3AC1D141A076D007C8B4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5F3AC29141A076D007C8B4F /* InfoPlist.strings in Resources */,
+				E5F3AC2C141A076D007C8B4F /* LessyTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E5F3AC1E141A076D007C8B4F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E5F3ABF8141A076D007C8B4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5F3AC0E141A076D007C8B4F /* main.m in Sources */,
+				E5F3AC14141A076D007C8B4F /* MyDocument.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5F3AC1B141A076D007C8B4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5F3AC2E141A076D007C8B4F /* LessyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E5F3AC23141A076D007C8B4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E5F3ABFB141A076D007C8B4F /* Lessy */;
+			targetProxy = E5F3AC22141A076D007C8B4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E5F3AC09141A076D007C8B4F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5F3AC0A141A076D007C8B4F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E5F3AC0F141A076D007C8B4F /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5F3AC10141A076D007C8B4F /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		E5F3AC15141A076D007C8B4F /* MyDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5F3AC16141A076D007C8B4F /* en */,
+			);
+			name = MyDocument.xib;
+			sourceTree = "<group>";
+		};
+		E5F3AC18141A076D007C8B4F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5F3AC19141A076D007C8B4F /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		E5F3AC27141A076D007C8B4F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5F3AC28141A076D007C8B4F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E5F3AC2F141A076D007C8B4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E5F3AC30141A076D007C8B4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E5F3AC32141A076D007C8B4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lessy/Lessy-Prefix.pch";
+				INFOPLIST_FILE = "Lessy/Lessy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E5F3AC33141A076D007C8B4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lessy/Lessy-Prefix.pch";
+				INFOPLIST_FILE = "Lessy/Lessy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E5F3AC35141A076D007C8B4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Lessy.app/Contents/MacOS/Lessy";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LessyTests/LessyTests-Prefix.pch";
+				INFOPLIST_FILE = "LessyTests/LessyTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		E5F3AC36141A076D007C8B4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Lessy.app/Contents/MacOS/Lessy";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LessyTests/LessyTests-Prefix.pch";
+				INFOPLIST_FILE = "LessyTests/LessyTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E5F3ABF6141A076D007C8B4F /* Build configuration list for PBXProject "Lessy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5F3AC2F141A076D007C8B4F /* Debug */,
+				E5F3AC30141A076D007C8B4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5F3AC31141A076D007C8B4F /* Build configuration list for PBXNativeTarget "Lessy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5F3AC32141A076D007C8B4F /* Debug */,
+				E5F3AC33141A076D007C8B4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E5F3AC34141A076D007C8B4F /* Build configuration list for PBXNativeTarget "LessyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5F3AC35141A076D007C8B4F /* Debug */,
+				E5F3AC36141A076D007C8B4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E5F3ABF3141A076D007C8B4F /* Project object */;
+}

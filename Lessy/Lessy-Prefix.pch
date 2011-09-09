@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Lessy' target in the 'Lessy' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
