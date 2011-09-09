@@ -7,9 +7,14 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import <Quartz/Quartz.h>
 
 @interface MyDocument : NSDocument {
-@private
+    PDFView *pdfView;
+    PDFDocument *document;
 }
+
+@property (nonatomic, retain) IBOutlet PDFView *pdfView;
+@property (nonatomic, retain) PDFDocument *document;
 
 @end
